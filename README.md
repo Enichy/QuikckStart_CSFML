@@ -10,7 +10,9 @@ It's a documentation about CSFML. There is some templates, and explanation on ho
 Before you begin, make sure you have the following prerequisites installed on your system:
 
 ·CMake (version 2.8.12 or higher)
+
 ·A C compiler (GCC, Clang, etc.)
+
 ·CSFML dependencies (like OpenGL, X11, etc.)
 
 ### Installation:
