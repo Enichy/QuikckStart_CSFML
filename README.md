@@ -88,7 +88,7 @@ Clearly specify the version of CSFML your documentation is based on.
 If CSFML receives updates, mention how to adapt the documentation accordingly.
 
 ## License:
-# Your Project Name
+### CSFML Documentation
 
 © [Enichy], [2024]. All rights reserved.
 
