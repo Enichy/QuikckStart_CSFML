@@ -1,5 +1,4 @@
 # QuickStart to CSFML, By Enichy
-It's a documentation about CSFML. There is some templates, and explanation on how to do basic things in CSFML.
 ## Getting Started:
 ### Overview:
 
@@ -41,13 +40,13 @@ sudo make install
   If you have an older version of CSFML and want to update it, follow these steps:
 
 **Update CSFML Source Code:**
-Download the latest CSFML source code from the official website or GitHub repository.
+- Download the latest CSFML source code from the official website or GitHub repository.
 
 **Build and Install:**
-Repeat the steps mentioned in the "Build CSFML" and "Install CSFML" sections.
+- Repeat the steps mentioned in the "Build CSFML" and "Install CSFML" sections.
 
 **Verify Update:**
-Check the CSFML version in your application to ensure that the update was successful.
+- Check the CSFML version in your application to ensure that the update was successful.
 
 Now you are ready to start using CSFML for your multimedia development projects. Move on to the next sections for tutorials and examples on how to create applications using CSFML.
 
