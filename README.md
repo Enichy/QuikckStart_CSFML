@@ -43,7 +43,7 @@ sudo make install
 - **Update CSFML Source Code:**
   - Download the latest CSFML source code from the official website or GitHub repository.
 
-- **Build and Install:** -
+- **Build and Install:**
   - Repeat the steps mentioned in the "Build CSFML" and "Install CSFML" sections.
 
 - **Verify Update:**
