@@ -88,8 +88,22 @@ Clearly specify the version of CSFML your documentation is based on.
 If CSFML receives updates, mention how to adapt the documentation accordingly.
 
 ## License:
-Clearly state the license of your documentation.
-Provide information about the license of CSFML itself.
+# Your Project Name
+
+© [Enichy], [2024]. All rights reserved.
+
+This work is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+**You are free to:**
+- Share: Copy and redistribute the material in any medium or format for non-commercial purposes.
+
+**Under the following terms:**
+- Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- NonCommercial: You may not use the material for commercial purposes.
+- NoDerivatives: If you remix, transform, or build upon the material, you may not distribute the modified material.
+
+![CC BY-NC-ND](https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)
+
 
 ## Changelog:
 Keep a changelog to document changes made to the documentation over time.
