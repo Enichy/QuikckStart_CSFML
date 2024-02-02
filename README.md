@@ -1,10 +1,10 @@
 # Lib-CSFML
 It's a documentation about CSFML. There is some templates, and explanation on how to do basic things in CSFML.
 ## Getting Started:
-Overview:
+# Overview:
 
 CSFML (C Simple and Fast Multimedia Library) is a library designed for simple and fast development of multimedia applications, particularly games and interactive media. This section will guide you through the process of setting up CSFML for your development environment.
-Prerequisites:
+**Prerequisites:**
 
 Before you begin, make sure you have the following prerequisites installed on your system:
 
@@ -12,41 +12,41 @@ CMake (version 2.8.12 or higher)
 A C compiler (GCC, Clang, etc.)
 CSFML dependencies (like OpenGL, X11, etc.)
 
-Installation:
+# Installation:
 
-Download CSFML:
-Visit the official CSFML website or download the source code from the CSFML GitHub repository.
+**Download CSFML:**
+  Visit the official CSFML website or download the source code from the CSFML GitHub repository.
 
-Build CSFML:
-Extract the downloaded archive and navigate to the CSFML directory.
-Create a build directory (e.g., build/) within the CSFML directory.
-Open a terminal and navigate to the build directory.
-Run the following commands:
+**Build CSFML:**
+  ·Extract the downloaded archive and navigate to the CSFML directory.
+  ·Create a build directory (e.g., build/) within the CSFML directory.
+  ·Open a terminal and navigate to the build directory.
+  ·Run the following commands:
 ```
 cmake ..
 make
 ```
-Install CSFML:
-After successful compilation, install CSFML using the following command:
+**Install CSFML:**
+  After successful compilation, install CSFML using the following command:
 ```
 sudo make install
 ```
-Verify Installation:
-To ensure that CSFML is installed correctly, create a simple C program that uses CSFML functions.
-Compile and run the program. If there are no errors, CSFML is installed successfully.
+**Verify Installation:**
+  To ensure that CSFML is installed correctly, create a simple C program that uses CSFML functions.
+  Compile and run the program. If there are no errors, CSFML is installed successfully.
 
-Updating CSFML:
+**Updating CSFML:**
 
-If you have an older version of CSFML and want to update it, follow these steps:
+  If you have an older version of CSFML and want to update it, follow these steps:
 
-Update CSFML Source Code:
-Download the latest CSFML source code from the official website or GitHub repository.
+**Update CSFML Source Code:**
+  Download the latest CSFML source code from the official website or GitHub repository.
 
-Build and Install:
-Repeat the steps mentioned in the "Build CSFML" and "Install CSFML" sections.
+**Build and Install:**
+  Repeat the steps mentioned in the "Build CSFML" and "Install CSFML" sections.
 
-Verify Update:
-Check the CSFML version in your application to ensure that the update was successful.
+**Verify Update:**
+  Check the CSFML version in your application to ensure that the update was successful.
 
 Now you are ready to start using CSFML for your multimedia development projects. Move on to the next sections for tutorials and examples on how to create applications using CSFML.
 
