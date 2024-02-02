@@ -9,11 +9,9 @@ It's a documentation about CSFML. There is some templates, and explanation on ho
 
 Before you begin, make sure you have the following prerequisites installed on your system:
 
-·CMake (version 2.8.12 or higher)
-
-·A C compiler (GCC, Clang, etc.)
-
-·CSFML dependencies (like OpenGL, X11, etc.)
+- CMake (version 2.8.12 or higher)
+- A C compiler (GCC, Clang, etc.)
+- CSFML dependencies (like OpenGL, X11, etc.)
 
 ### Installation:
 
@@ -21,10 +19,10 @@ Before you begin, make sure you have the following prerequisites installed on yo
   Visit the official CSFML website or download the source code from the CSFML GitHub repository.
 
 **Build CSFML:**
-  ·Extract the downloaded archive and navigate to the CSFML directory.
-  ·Create a build directory (e.g., build/) within the CSFML directory.
-  ·Open a terminal and navigate to the build directory.
-  ·Run the following commands:
+  - Extract the downloaded archive and navigate to the CSFML directory.
+  - Create a build directory (e.g., build/) within the CSFML directory.
+  - Open a terminal and navigate to the build directory.
+  - Run the following commands:
 ```
 cmake ..
 make
