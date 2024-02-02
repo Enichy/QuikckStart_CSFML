@@ -22,15 +22,15 @@ Extract the downloaded archive and navigate to the CSFML directory.
 Create a build directory (e.g., build/) within the CSFML directory.
 Open a terminal and navigate to the build directory.
 Run the following commands:
-  ```
-  cmake ..
-  make
-  ```
+```
+cmake ..
+make
+```
 Install CSFML:
 After successful compilation, install CSFML using the following command:
-    ```
-    sudo make install
-    ```
+```
+sudo make install
+```
 Verify Installation:
 To ensure that CSFML is installed correctly, create a simple C program that uses CSFML functions.
 Compile and run the program. If there are no errors, CSFML is installed successfully.
