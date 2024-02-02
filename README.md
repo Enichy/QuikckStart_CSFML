@@ -35,7 +35,7 @@ sudo make install
   To ensure that CSFML is installed correctly, create a simple C program that uses CSFML functions.
   Compile and run the program. If there are no errors, CSFML is installed successfully.
 
-**Updating CSFML:**
+# Updating CSFML:
 
   If you have an older version of CSFML and want to update it, follow these steps:
 
