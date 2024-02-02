@@ -1,7 +1,7 @@
 # QuickStart to CSFML, By Enichy
 It's a documentation about CSFML. There is some templates, and explanation on how to do basic things in CSFML.
 ## Getting Started:
-Overview:
+### Overview:
 
   CSFML (C Simple and Fast Multimedia Library) is a library designed for simple and fast development of multimedia applications, particularly games and interactive media. This section will guide you through the process of setting up CSFML for your
   development environment.
@@ -9,9 +9,9 @@ Overview:
 
 Before you begin, make sure you have the following prerequisites installed on your system:
 
-CMake (version 2.8.12 or higher)
-A C compiler (GCC, Clang, etc.)
-CSFML dependencies (like OpenGL, X11, etc.)
+·CMake (version 2.8.12 or higher)
+·A C compiler (GCC, Clang, etc.)
+·CSFML dependencies (like OpenGL, X11, etc.)
 
 ### Installation:
 
