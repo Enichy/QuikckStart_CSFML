@@ -16,7 +16,7 @@ Before you begin, understand this guide is made from Linux, specificially Ubuntu
 ### Installation:
 
 **Download CSFML:**
-Visit the official CSFML website or download the source code from the CSFML GitHub repository.
+- Visit the official CSFML website or download the source code from the CSFML GitHub repository.
 
 **Build CSFML:**
   - Extract the downloaded archive and navigate to the CSFML directory.
@@ -28,12 +28,12 @@ cmake ..
 make
 ```
 **Install CSFML:**
-  After successful compilation, install CSFML using the following command:
+  - After successful compilation, install CSFML using the following command:
 ```
 sudo make install
 ```
 **Verify Installation:**
-  To ensure that CSFML is installed correctly, create a simple C program that uses CSFML functions.
+  - To ensure that CSFML is installed correctly, create a simple C program that uses CSFML functions.
   Compile and run the program. If there are no errors, CSFML is installed successfully.
 
 ### Updating CSFML:
