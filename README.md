@@ -1,4 +1,4 @@
-# Lib-CSFML
+# QuickStart to CSFML, By Enichy
 It's a documentation about CSFML. There is some templates, and explanation on how to do basic things in CSFML.
 ## Getting Started:
 Overview:
@@ -88,7 +88,7 @@ Clearly specify the version of CSFML your documentation is based on.
 If CSFML receives updates, mention how to adapt the documentation accordingly.
 
 ## License:
-### CSFML Documentation
+### QuickStart CSFML
 
 © [Enichy], [2024]. All rights reserved.
 
