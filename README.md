@@ -2,6 +2,7 @@
 ## Getting Started:
 ### Overview:
 
+
 CSFML (C Simple and Fast Multimedia Library) is a library designed for simple and fast development of multimedia applications, particularly games and interactive media. This section will guide you through the process of setting up CSFML for your
 development environment.
 
