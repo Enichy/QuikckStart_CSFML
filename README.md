@@ -51,7 +51,7 @@ sudo make install
 
 Now you are ready to start using CSFML for your multimedia development projects. Move on to the next sections for tutorials and examples on how to create applications using CSFML.
 
-
+TEMPLINK : https://enichy.github.io/QuikckStart_CSFML/index.html
 
 ## Project Structure:
 Guidance on organizing your CSFML project.
