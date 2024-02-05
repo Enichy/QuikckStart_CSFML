@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="index_8md" kind="file" language="Markdown">
+    <compoundname>index.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">/**</highlight></codeline>
+<codeline><highlight class="normal">@mainpage<sp/>QuickStart<sp/>CSFML<sp/>by<sp/>Enichy</highlight></codeline>
+<codeline><highlight class="normal">#<sp/>Description</highlight></codeline>
+<codeline><highlight class="normal">Welcome<sp/>to<sp/>the<sp/>QuickStart<sp/>CSFML<sp/>documentation<sp/>by<sp/>Enichy.<sp/>This<sp/>guide<sp/>is<sp/>designed<sp/>for<sp/>those<sp/>who<sp/>are<sp/>new<sp/>to<sp/>CSFML<sp/>(Simple<sp/>and<sp/>Fast<sp/>Multimedia<sp/>Library)<sp/>and<sp/>need<sp/>assistance<sp/>in<sp/>getting<sp/>started.<sp/>&lt;br&gt;<sp/>&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal">Whether<sp/>you<sp/>are<sp/>a<sp/>beginner<sp/>or<sp/>looking<sp/>to<sp/>explore<sp/>intermediate<sp/>topics,<sp/>this<sp/>documentation<sp/>aims<sp/>to<sp/>provide<sp/>a<sp/>clear<sp/>overview,<sp/>basic<sp/>concepts,<sp/>and<sp/>guidance<sp/>on<sp/>using<sp/>CSFML<sp/>for<sp/>game<sp/>development.<sp/>&lt;br&gt;<sp/>&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal">Additionally,<sp/>troubleshooting<sp/>and<sp/>debugging<sp/>tips<sp/>are<sp/>provided<sp/>to<sp/>help<sp/>you<sp/>overcome<sp/>common<sp/>challenges.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Beginner<sp/>Level</highlight></codeline>
+<codeline><highlight class="normal">##<sp/>Introduction<sp/>to<sp/>CSFML:</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Simple<sp/>first<sp/>program<sp/>using<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Walk<sp/>through<sp/>the<sp/>creation<sp/>of<sp/>a<sp/>basic<sp/>program<sp/>that<sp/>opens<sp/>a<sp/>CSFML<sp/>window.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Introduce<sp/>the<sp/>fundamental<sp/>structure<sp/>of<sp/>a<sp/>CSFML<sp/>application.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Basic<sp/>Concepts</highlight></codeline>
+<codeline><highlight class="normal">##<sp/>Windows:</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Creating<sp/>a<sp/>window.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Provide<sp/>code<sp/>examples<sp/>for<sp/>creating<sp/>a<sp/>basic<sp/>window<sp/>using<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explain<sp/>parameters<sp/>and<sp/>customization<sp/>options<sp/>for<sp/>window<sp/>cr</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Basic<sp/>window<sp/>operations<sp/>(resizing,<sp/>moving,<sp/>closing).</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Detail<sp/>operations<sp/>such<sp/>as<sp/>resizing,<sp/>moving,<sp/>and<sp/>closing<sp/>CSFML<sp/>windows.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Offer<sp/>code<sp/>snippets<sp/>and<sp/>explanations<sp/>for<sp/>each<sp/>operation.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Graphics:</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Drawing<sp/>basic<sp/>shapes<sp/>(rectangles,<sp/>circles).</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Demonstrate<sp/>how<sp/>to<sp/>draw<sp/>simple<sp/>shapes<sp/>using<sp/>CSFML&apos;s<sp/>graphics<sp/>module.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Include<sp/>code<sp/>samples<sp/>for<sp/>drawing<sp/>rectangles<sp/>and<sp/>circles.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Using<sp/>textures<sp/>and<sp/>sprites.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explore<sp/>texture<sp/>loading<sp/>and<sp/>sprite<sp/>creation<sp/>in<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explain<sp/>how<sp/>to<sp/>apply<sp/>textures<sp/>to<sp/>sprites<sp/>and<sp/>display<sp/>them<sp/>on<sp/>the<sp/>window.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Rendering<sp/>text.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Guide<sp/>users<sp/>through<sp/>rendering<sp/>text<sp/>with<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Cover<sp/>text<sp/>styling,<sp/>positioning,<sp/>and<sp/>displaying<sp/>on<sp/>the<sp/>window.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Events:</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Handling<sp/>window<sp/>events.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explain<sp/>the<sp/>event-driven<sp/>nature<sp/>of<sp/>CSFML<sp/>applications.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Provide<sp/>examples<sp/>of<sp/>handling<sp/>various<sp/>window<sp/>events.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Event<sp/>loop<sp/>basics.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Introduce<sp/>the<sp/>concept<sp/>of<sp/>an<sp/>event<sp/>loop<sp/>in<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explain<sp/>how<sp/>the<sp/>event<sp/>loop<sp/>processes<sp/>and<sp/>responds<sp/>to<sp/>events.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Basic<sp/>input<sp/>handling<sp/>(keyboard,<sp/>mouse).</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Walk<sp/>through<sp/>handling<sp/>basic<sp/>keyboard<sp/>and<sp/>mouse<sp/>input<sp/>with<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Include<sp/>code<sp/>examples<sp/>for<sp/>capturing<sp/>and<sp/>responding<sp/>to<sp/>user<sp/>input.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Intermediate<sp/>Level</highlight></codeline>
+<codeline><highlight class="normal">##<sp/>Window<sp/>Customization:</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Customizing<sp/>window<sp/>appearance<sp/>(title,<sp/>icon,<sp/>style).</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Provide<sp/>options<sp/>for<sp/>customizing<sp/>the<sp/>appearance<sp/>of<sp/>CSFML<sp/>windows.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explain<sp/>how<sp/>to<sp/>set<sp/>window<sp/>titles,<sp/>icons,<sp/>and<sp/>styles.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Fullscreen<sp/>and<sp/>windowed<sp/>modes.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Detail<sp/>how<sp/>to<sp/>switch<sp/>between<sp/>fullscreen<sp/>and<sp/>windowed<sp/>modes<sp/>in<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Cover<sp/>considerations<sp/>for<sp/>handling<sp/>different<sp/>display<sp/>modes.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Advanced<sp/>Graphics:</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Drawing<sp/>more<sp/>complex<sp/>shapes<sp/>(lines,<sp/>polygons).</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Introduce<sp/>advanced<sp/>graphics<sp/>capabilities<sp/>with<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Provide<sp/>examples<sp/>of<sp/>drawing<sp/>lines<sp/>and<sp/>polygons.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Transformations<sp/>(rotation,<sp/>scaling).</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explore<sp/>transformations<sp/>in<sp/>CSFML<sp/>for<sp/>rotating<sp/>and<sp/>scaling<sp/>shapes.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Include<sp/>practical<sp/>examples<sp/>of<sp/>applying<sp/>transformations.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Blending<sp/>and<sp/>transparency.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explain<sp/>blending<sp/>modes<sp/>in<sp/>CSFML<sp/>for<sp/>achieving<sp/>transparency.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Provide<sp/>examples<sp/>demonstrating<sp/>the<sp/>use<sp/>of<sp/>blending<sp/>in<sp/>graphics.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Advanced<sp/>Text<sp/>Rendering:</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Text<sp/>alignment<sp/>and<sp/>styling.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Guide<sp/>users<sp/>on<sp/>advanced<sp/>text<sp/>alignment<sp/>and<sp/>styling<sp/>options.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Include<sp/>examples<sp/>of<sp/>formatting<sp/>text<sp/>in<sp/>different<sp/>ways.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Handling<sp/>multiple<sp/>fonts.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Demonstrate<sp/>how<sp/>to<sp/>work<sp/>with<sp/>multiple<sp/>fonts<sp/>in<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explain<sp/>loading<sp/>and<sp/>using<sp/>different<sp/>fonts<sp/>in<sp/>a<sp/>project.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Game<sp/>Development</highlight></codeline>
+<codeline><highlight class="normal">##<sp/>Animation:</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Creating<sp/>simple<sp/>animations.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Introduce<sp/>animation<sp/>concepts<sp/>in<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Provide<sp/>examples<sp/>of<sp/>animating<sp/>sprites<sp/>and<sp/>shapes.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Frame-based<sp/>animation<sp/>vs.<sp/>time-based<sp/>animation.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explain<sp/>the<sp/>difference<sp/>between<sp/>frame-based<sp/>and<sp/>time-based<sp/>animation.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Discuss<sp/>the<sp/>advantages<sp/>and<sp/>use<sp/>cases<sp/>of<sp/>each<sp/>approach.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Game<sp/>Loop:</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Structuring<sp/>a<sp/>game<sp/>loop<sp/>using<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Detail<sp/>the<sp/>components<sp/>of<sp/>a<sp/>game<sp/>loop<sp/>in<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Provide<sp/>a<sp/>sample<sp/>structure<sp/>for<sp/>organizing<sp/>game<sp/>updates<sp/>and<sp/>rendering.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Handling<sp/>game<sp/>state<sp/>and<sp/>updates.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Discuss<sp/>strategies<sp/>for<sp/>managing<sp/>game<sp/>state<sp/>in<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Provide<sp/>examples<sp/>of<sp/>updating<sp/>game<sp/>logic<sp/>within<sp/>the<sp/>game<sp/>loop.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Input<sp/>Handling:</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Advanced<sp/>keyboard<sp/>and<sp/>mouse<sp/>input.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explore<sp/>advanced<sp/>techniques<sp/>for<sp/>handling<sp/>keyboard<sp/>and<sp/>mouse<sp/>input.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Provide<sp/>examples<sp/>of<sp/>responding<sp/>to<sp/>specific<sp/>key<sp/>combinations<sp/>and<sp/>mouse<sp/>actions.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Input<sp/>buffering<sp/>and<sp/>handling<sp/>multiple<sp/>inputs<sp/>simultaneously.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Explain<sp/>input<sp/>buffering<sp/>to<sp/>handle<sp/>simultaneous<sp/>inputs<sp/>in<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Provide<sp/>solutions<sp/>for<sp/>managing<sp/>multiple<sp/>input<sp/>sources.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Troubleshooting<sp/>and<sp/>Debugging</highlight></codeline>
+<codeline><highlight class="normal">##<sp/>Common<sp/>Issues:</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Addressing<sp/>common<sp/>problems<sp/>users<sp/>may<sp/>encounter.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Compile<sp/>a<sp/>list<sp/>of<sp/>common<sp/>issues<sp/>faced<sp/>by<sp/>CSFML<sp/>developers.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Offer<sp/>solutions<sp/>and<sp/>workarounds<sp/>for<sp/>each<sp/>identified<sp/>problem.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Troubleshooting<sp/>window,<sp/>graphics,<sp/>and<sp/>event-related<sp/>issues.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Provide</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>What<sp/>else<sp/>now<sp/>?</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Now<sp/>that<sp/>you<sp/>have<sp/>gone<sp/>through<sp/>the<sp/>QuickStart<sp/>CSFML<sp/>documentation,<sp/>here<sp/>are<sp/>some<sp/>additional<sp/>resources<sp/>and<sp/>suggestions<sp/>for<sp/>further<sp/>exploration:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Additional<sp/>Topics<sp/>to<sp/>Explore</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Advanced<sp/>Features</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Dive<sp/>deeper<sp/>into<sp/>advanced<sp/>features<sp/>and<sp/>functionalities<sp/>offered<sp/>by<sp/>CSFML.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Check<sp/>the<sp/>official<sp/>CSFML<sp/>documentation<sp/>for<sp/>comprehensive<sp/>details.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Community<sp/>Resources</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Join<sp/>the<sp/>CSFML<sp/>community<sp/>forums<sp/>or<sp/>mailing<sp/>lists<sp/>to<sp/>connect<sp/>with<sp/>other<sp/>users.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Share<sp/>your<sp/>experiences,<sp/>ask<sp/>questions,<sp/>and<sp/>learn<sp/>from<sp/>the<sp/>community.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Official<sp/>CSFML<sp/>Documentation</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>the<sp/>most<sp/>detailed<sp/>and<sp/>up-to-date<sp/>information<sp/>about<sp/>CSFML,<sp/>refer<sp/>to<sp/>the<sp/>Official<sp/>[Documentation](https://www.sfml-dev.org/documentation/2.5.1/index.php).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Explore<sp/>the<sp/>official<sp/>documentation<sp/>to<sp/>access<sp/>in-depth<sp/>guides,<sp/>API<sp/>reference,<sp/>and<sp/>more.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Contributing</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>you&apos;re<sp/>interested<sp/>in<sp/>contributing<sp/>to<sp/>CSFML<sp/>or<sp/>reporting<sp/>issues,<sp/>visit<sp/>the<sp/>Official<sp/>[GitHub<sp/>Repository](https://github.com/SFML/CSFML).</highlight></codeline>
+<codeline><highlight class="normal">Feel<sp/>free<sp/>to<sp/>submit<sp/>bug<sp/>reports,<sp/>contribute<sp/>code,<sp/>or<sp/>get<sp/>involved<sp/>in<sp/>the<sp/>development<sp/>process.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>My<sp/>Links</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[My<sp/>Github](https://github.com/Enichy)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[QuickStart<sp/>CSFML<sp/>repository](https://github.com/Enichy/QuikckStart_CSFML)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usefull<sp/>Links</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[CSFML<sp/>Official<sp/>Documentation](https://www.sfml-dev.org/documentation/2.5.1/index.php)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Access<sp/>comprehensive<sp/>guides,<sp/>tutorials,<sp/>and<sp/>API<sp/>references<sp/>directly<sp/>from<sp/>the<sp/>official<sp/>source.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[CSFML<sp/>GitHub<sp/>Repository](https://github.com/SFML/CSFML)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Contribute<sp/>to<sp/>CSFML,<sp/>report<sp/>issues,<sp/>and<sp/>stay<sp/>updated<sp/>with<sp/>the<sp/>latest<sp/>development<sp/>on<sp/>GitHub.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[CSFML<sp/>Community<sp/>Forums](https://en.sfml-dev.org/forums/index.php?board=8.0)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Engage<sp/>with<sp/>the<sp/>CSFML<sp/>community,<sp/>ask<sp/>questions,<sp/>and<sp/>share<sp/>your<sp/>experiences<sp/>on<sp/>the<sp/>official<sp/>forums.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[SFML<sp/>Website](https://www.sfml-dev.org/)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Explore<sp/>the<sp/>broader<sp/>SFML<sp/>library<sp/>that<sp/>CSFML<sp/>is<sp/>based<sp/>on<sp/>for<sp/>additional<sp/>functionalities.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[SFML<sp/>GitHub<sp/>Repository](https://github.com/SFML/SFML)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>If<sp/>you&apos;re<sp/>interested<sp/>in<sp/>the<sp/>underlying<sp/>SFML<sp/>library,<sp/>visit<sp/>the<sp/>Official<sp/>SFML<sp/>GitHub<sp/>Repository.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Feel<sp/>free<sp/>to<sp/>explore<sp/>these<sp/>links<sp/>to<sp/>enhance<sp/>your<sp/>CSFML<sp/>learning<sp/>experience<sp/>and<sp/>stay<sp/>connected<sp/>with<sp/>the<sp/>community!</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Thank<sp/>you<sp/>for<sp/>using<sp/>QuickStart<sp/>CSFML.<sp/>Happy<sp/>coding!**</highlight></codeline>
+    </programlisting>
+    <location file="/home/enichy/Documents/Doxygene/CSFML_DOC/index.md"/>
+  </compounddef>
+</doxygen>

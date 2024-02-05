@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_f19f591c72f29e8c0abef93d2677a259" kind="dir">
+    <compoundname>/home/enichy/Documents/Doxygene/CSFML_DOC/Documentation/basic_part/first_example</compoundname>
+    <innerdir refid="dir_005c7b640101bdb33bd444b533a60fc0">/home/enichy/Documents/Doxygene/CSFML_DOC/Documentation/basic_part/first_example/includes</innerdir>
+    <innerfile refid="first__window_8c">first_window.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/enichy/Documents/Doxygene/CSFML_DOC/Documentation/basic_part/first_example/"/>
+  </compounddef>
+</doxygen>

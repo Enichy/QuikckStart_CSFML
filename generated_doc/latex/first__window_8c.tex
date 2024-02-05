@@ -1,0 +1,102 @@
+\hypertarget{first__window_8c}{}\doxysection{/home/enichy/\+Documents/\+Doxygene/\+CSFML\+\_\+\+DOC/\+Documentation/basic\+\_\+part/first\+\_\+example/first\+\_\+window.c File Reference}
+\label{first__window_8c}\index{/home/enichy/Documents/Doxygene/CSFML\_DOC/Documentation/basic\_part/first\_example/first\_window.c@{/home/enichy/Documents/Doxygene/CSFML\_DOC/Documentation/basic\_part/first\_example/first\_window.c}}
+
+
+This is the first example of a basic window creation using CSFML library.  
+
+
+{\ttfamily \#include $<$SFML/\+Graphics.\+h$>$}\newline
+{\ttfamily \#include $<$SFML/\+Window.\+h$>$}\newline
+{\ttfamily \#include $<$SFML/\+System.\+h$>$}\newline
+{\ttfamily \#include $<$SFML/\+Audio.\+h$>$}\newline
+{\ttfamily \#include $<$SFML/\+Network.\+h$>$}\newline
+{\ttfamily \#include $<$SFML/\+Config.\+h$>$}\newline
+{\ttfamily \#include $<$SFML/\+Open\+GL.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{first__window_8c_aae3e0fb361a9e5abfb4c1ea3fb515a7f}{create\+\_\+window}} (void)
+\begin{DoxyCompactList}\small\item\em Creates a basic window using CSFML library. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{first__window_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{first__window_8c_a840291bc02cba5474a4cb46a9b9566fe}} 
+int {\bfseries main} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the first example of a basic window creation using CSFML library. 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{int} main(\textcolor{keywordtype}{void})}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    \textcolor{comment}{// Call the create\_window function and return 84 if it fails}}
+\DoxyCodeLine{    \textcolor{keywordflow}{if} (\mbox{\hyperlink{first__window_8c_aae3e0fb361a9e5abfb4c1ea3fb515a7f}{create\_window}}() == 84)}
+\DoxyCodeLine{       \textcolor{keywordflow}{return} (84);}
+\DoxyCodeLine{   \textcolor{keywordflow}{return} (0);}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ This file contains the main function which is the entry point of the program. It calls the create\+\_\+window function and returns 84 if it fails. Then it returns 0. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{first__window_8c_aae3e0fb361a9e5abfb4c1ea3fb515a7f}\label{first__window_8c_aae3e0fb361a9e5abfb4c1ea3fb515a7f}} 
+\index{first\_window.c@{first\_window.c}!create\_window@{create\_window}}
+\index{create\_window@{create\_window}!first\_window.c@{first\_window.c}}
+\doxysubsubsection{\texorpdfstring{create\_window()}{create\_window()}}
+{\footnotesize\ttfamily int create\+\_\+window (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Creates a basic window using CSFML library. 
+
+This function creates a window with the specified dimensions and title using the CSFML library. The window remains open until it is closed by the user. 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void} \mbox{\hyperlink{first__window_8c_aae3e0fb361a9e5abfb4c1ea3fb515a7f}{create\_window}}(\textcolor{keywordtype}{void})}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{     \textcolor{comment}{// Create a sfVideoMode object with the desired dimensions and color depth}}
+\DoxyCodeLine{     sfVideoMode mode = \{800, 600, 32\};}
+\DoxyCodeLine{}
+\DoxyCodeLine{     \textcolor{comment}{// Create a sfRenderWindow object}}
+\DoxyCodeLine{     sfRenderWindow *window = NULL;}
+\DoxyCodeLine{}
+\DoxyCodeLine{     \textcolor{comment}{// Create a sfEvent object}}
+\DoxyCodeLine{     sfEvent event;}
+\DoxyCodeLine{}
+\DoxyCodeLine{     \textcolor{comment}{// Create the window}}
+\DoxyCodeLine{     window = sfRenderWindow\_create(mode, \textcolor{stringliteral}{"{}My window"{}}, sfResize | sfClose, NULL);}
+\DoxyCodeLine{}
+\DoxyCodeLine{     \textcolor{comment}{// If the window creation failed, return 84}}
+\DoxyCodeLine{     \textcolor{keywordflow}{if} (!window)}
+\DoxyCodeLine{         \textcolor{keywordflow}{return} (84);}
+\DoxyCodeLine{}
+\DoxyCodeLine{     \textcolor{comment}{// Principal loop that keeps the window open}}
+\DoxyCodeLine{     \textcolor{keywordflow}{while} (sfRenderWindow\_isOpen(window))\{}
+\DoxyCodeLine{         \textcolor{comment}{// Secondary loop that poll the events}}
+\DoxyCodeLine{         \textcolor{keywordflow}{while} (sfRenderWindow\_pollEvent(window, \&event))\{}
+\DoxyCodeLine{}
+\DoxyCodeLine{             \textcolor{comment}{// If the user closes the window, close the window}}
+\DoxyCodeLine{             \textcolor{keywordflow}{if} (event.type == sfEvtClosed)}
+\DoxyCodeLine{                 sfRenderWindow\_close(window);}
+\DoxyCodeLine{         \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{         \textcolor{comment}{// Clear the window with a black color}}
+\DoxyCodeLine{         sfRenderWindow\_clear(window, sfBlack);}
+\DoxyCodeLine{}
+\DoxyCodeLine{         \textcolor{comment}{// Display the window}}
+\DoxyCodeLine{         sfRenderWindow\_display(window);}
+\DoxyCodeLine{     \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{     \textcolor{comment}{// Destroy the window}}
+\DoxyCodeLine{     sfRenderWindow\_destroy(window);}
+\DoxyCodeLine{     \textcolor{keywordflow}{return} (0);}
+\DoxyCodeLine{ \}}
+
+\end{DoxyCode}
+ 
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An int, that determine if the programm has been executed correctly. 
+\end{DoxyReturn}

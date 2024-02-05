@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index" kind="page">
+    <compoundname>md__home_enichy_Documents_Doxygene_CSFML_DOC_index</compoundname>
+    <title>index</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>/** </para>
+<sect1 id="md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md0">
+<title>QuickStart CSFML by Enichy</title>
+<para>This is the main page of the project documentation.</para>
+<sect2 id="md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md1">
+<title>Description</title>
+<para>Welcome to the QuickStart CSFML documentation by Enichy. This guide is designed for those who are new to CSFML (Simple and Fast Multimedia Library) and need assistance in getting started. Whether you are a beginner or looking to explore intermediate topics, this documentation aims to provide a clear overview, basic concepts, and guidance on using CSFML for game development. Additionally, troubleshooting and debugging tips are provided to help you overcome common challenges.</para>
+</sect2>
+<sect2 id="md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md2">
+<title>Beginner Level</title>
+<para>Provide a brief overview of your project.</para>
+</sect2>
+<sect2 id="md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md3">
+<title>Basic Concepts</title>
+<para>Include instructions or links for getting started with your project.</para>
+</sect2>
+<sect2 id="md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md4">
+<title>Intermediate Level</title>
+<para>List and describe key features of your project.</para>
+</sect2>
+<sect2 id="md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md5">
+<title>Game Development</title>
+<para>Explore CSFML for game development.</para>
+</sect2>
+<sect2 id="md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md6">
+<title>Troubleshooting and Debugging</title>
+<para>Troubleshoot common issues and debugging tips.</para>
+<para>*/ </para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="/home/enichy/Documents/Doxygene/CSFML_DOC/index.md"/>
+  </compounddef>
+</doxygen>

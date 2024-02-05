@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index" xml:lang="en-US">
+
+<para>/** </para>
+<section xml:id="_md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md0">
+<title>QuickStart CSFML by Enichy</title>
+
+<para>This is the main page of the project documentation.</para>
+<section xml:id="_md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md1">
+<title>Description</title>
+
+<para>Welcome to the QuickStart CSFML documentation by Enichy. This guide is designed for those who are new to CSFML (Simple and Fast Multimedia Library) and need assistance in getting started. Whether you are a beginner or looking to explore intermediate topics, this documentation aims to provide a clear overview, basic concepts, and guidance on using CSFML for game development. Additionally, troubleshooting and debugging tips are provided to help you overcome common challenges.</para>
+</section>
+<section xml:id="_md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md2">
+<title>Beginner Level</title>
+
+<para>Provide a brief overview of your project.</para>
+</section>
+<section xml:id="_md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md3">
+<title>Basic Concepts</title>
+
+<para>Include instructions or links for getting started with your project.</para>
+</section>
+<section xml:id="_md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md4">
+<title>Intermediate Level</title>
+
+<para>List and describe key features of your project.</para>
+</section>
+<section xml:id="_md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md5">
+<title>Game Development</title>
+
+<para>Explore CSFML for game development.</para>
+</section>
+<section xml:id="_md__home_enichy__documents__doxygene__c_s_f_m_l__d_o_c_index_1autotoc_md6">
+<title>Troubleshooting and Debugging</title>
+
+<para>Troubleshoot common issues and debugging tips.</para>
+
+<para>*/ </para>
+</section>
+</section>
+</section>

@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>QuickStart CSFML by Enichy</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="index_1autotoc_md0">
+<title>Description</title>
+<para>Welcome to the QuickStart CSFML documentation by Enichy. This guide is designed for those who are new to CSFML (Simple and Fast Multimedia Library) and need assistance in getting started. <linebreak/>
+ <linebreak/>
+ Whether you are a beginner or looking to explore intermediate topics, this documentation aims to provide a clear overview, basic concepts, and guidance on using CSFML for game development. <linebreak/>
+ <linebreak/>
+ Additionally, troubleshooting and debugging tips are provided to help you overcome common challenges.</para>
+</sect1>
+<sect1 id="index_1autotoc_md1">
+<title>Beginner Level</title>
+<sect2 id="index_1autotoc_md2">
+<title>Introduction to CSFML:</title>
+<sect3 id="index_1autotoc_md3">
+<title>Simple first program using CSFML.</title>
+<para><itemizedlist>
+<listitem><para>Walk through the creation of a basic program that opens a CSFML window.</para>
+</listitem><listitem><para>Introduce the fundamental structure of a CSFML application.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+</sect1>
+<sect1 id="index_1autotoc_md4">
+<title>Basic Concepts</title>
+<sect2 id="index_1autotoc_md5">
+<title>Windows:</title>
+<sect3 id="index_1autotoc_md6">
+<title>Creating a window.</title>
+<para><itemizedlist>
+<listitem><para>Provide code examples for creating a basic window using CSFML.</para>
+</listitem><listitem><para>Explain parameters and customization options for window cr</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md7">
+<title>Basic window operations (resizing, moving, closing).</title>
+<para><itemizedlist>
+<listitem><para>Detail operations such as resizing, moving, and closing CSFML windows.</para>
+</listitem><listitem><para>Offer code snippets and explanations for each operation.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+<sect2 id="index_1autotoc_md8">
+<title>Graphics:</title>
+<sect3 id="index_1autotoc_md9">
+<title>Drawing basic shapes (rectangles, circles).</title>
+<para><itemizedlist>
+<listitem><para>Demonstrate how to draw simple shapes using CSFML&apos;s graphics module.</para>
+</listitem><listitem><para>Include code samples for drawing rectangles and circles.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md10">
+<title>Using textures and sprites.</title>
+<para><itemizedlist>
+<listitem><para>Explore texture loading and sprite creation in CSFML.</para>
+</listitem><listitem><para>Explain how to apply textures to sprites and display them on the window.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md11">
+<title>Rendering text.</title>
+<para><itemizedlist>
+<listitem><para>Guide users through rendering text with CSFML.</para>
+</listitem><listitem><para>Cover text styling, positioning, and displaying on the window.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+<sect2 id="index_1autotoc_md12">
+<title>Events:</title>
+<sect3 id="index_1autotoc_md13">
+<title>Handling window events.</title>
+<para><itemizedlist>
+<listitem><para>Explain the event-driven nature of CSFML applications.</para>
+</listitem><listitem><para>Provide examples of handling various window events.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md14">
+<title>Event loop basics.</title>
+<para><itemizedlist>
+<listitem><para>Introduce the concept of an event loop in CSFML.</para>
+</listitem><listitem><para>Explain how the event loop processes and responds to events.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md15">
+<title>Basic input handling (keyboard, mouse).</title>
+<para><itemizedlist>
+<listitem><para>Walk through handling basic keyboard and mouse input with CSFML.</para>
+</listitem><listitem><para>Include code examples for capturing and responding to user input.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+</sect1>
+<sect1 id="index_1autotoc_md16">
+<title>Intermediate Level</title>
+<sect2 id="index_1autotoc_md17">
+<title>Window Customization:</title>
+<sect3 id="index_1autotoc_md18">
+<title>Customizing window appearance (title, icon, style).</title>
+<para><itemizedlist>
+<listitem><para>Provide options for customizing the appearance of CSFML windows.</para>
+</listitem><listitem><para>Explain how to set window titles, icons, and styles.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md19">
+<title>Fullscreen and windowed modes.</title>
+<para><itemizedlist>
+<listitem><para>Detail how to switch between fullscreen and windowed modes in CSFML.</para>
+</listitem><listitem><para>Cover considerations for handling different display modes.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+<sect2 id="index_1autotoc_md20">
+<title>Advanced Graphics:</title>
+<sect3 id="index_1autotoc_md21">
+<title>Drawing more complex shapes (lines, polygons).</title>
+<para><itemizedlist>
+<listitem><para>Introduce advanced graphics capabilities with CSFML.</para>
+</listitem><listitem><para>Provide examples of drawing lines and polygons.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md22">
+<title>Transformations (rotation, scaling).</title>
+<para><itemizedlist>
+<listitem><para>Explore transformations in CSFML for rotating and scaling shapes.</para>
+</listitem><listitem><para>Include practical examples of applying transformations.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md23">
+<title>Blending and transparency.</title>
+<para><itemizedlist>
+<listitem><para>Explain blending modes in CSFML for achieving transparency.</para>
+</listitem><listitem><para>Provide examples demonstrating the use of blending in graphics.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+<sect2 id="index_1autotoc_md24">
+<title>Advanced Text Rendering:</title>
+<sect3 id="index_1autotoc_md25">
+<title>Text alignment and styling.</title>
+<para><itemizedlist>
+<listitem><para>Guide users on advanced text alignment and styling options.</para>
+</listitem><listitem><para>Include examples of formatting text in different ways.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md26">
+<title>Handling multiple fonts.</title>
+<para><itemizedlist>
+<listitem><para>Demonstrate how to work with multiple fonts in CSFML.</para>
+</listitem><listitem><para>Explain loading and using different fonts in a project.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+</sect1>
+<sect1 id="index_1autotoc_md27">
+<title>Game Development</title>
+<sect2 id="index_1autotoc_md28">
+<title>Animation:</title>
+<sect3 id="index_1autotoc_md29">
+<title>Creating simple animations.</title>
+<para><itemizedlist>
+<listitem><para>Introduce animation concepts in CSFML.</para>
+</listitem><listitem><para>Provide examples of animating sprites and shapes.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md30">
+<title>Frame-based animation vs. time-based animation.</title>
+<para><itemizedlist>
+<listitem><para>Explain the difference between frame-based and time-based animation.</para>
+</listitem><listitem><para>Discuss the advantages and use cases of each approach.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+<sect2 id="index_1autotoc_md31">
+<title>Game Loop:</title>
+<sect3 id="index_1autotoc_md32">
+<title>Structuring a game loop using CSFML.</title>
+<para><itemizedlist>
+<listitem><para>Detail the components of a game loop in CSFML.</para>
+</listitem><listitem><para>Provide a sample structure for organizing game updates and rendering.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md33">
+<title>Handling game state and updates.</title>
+<para><itemizedlist>
+<listitem><para>Discuss strategies for managing game state in CSFML.</para>
+</listitem><listitem><para>Provide examples of updating game logic within the game loop.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+<sect2 id="index_1autotoc_md34">
+<title>Input Handling:</title>
+<sect3 id="index_1autotoc_md35">
+<title>Advanced keyboard and mouse input.</title>
+<para><itemizedlist>
+<listitem><para>Explore advanced techniques for handling keyboard and mouse input.</para>
+</listitem><listitem><para>Provide examples of responding to specific key combinations and mouse actions.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md36">
+<title>Input buffering and handling multiple inputs simultaneously.</title>
+<para><itemizedlist>
+<listitem><para>Explain input buffering to handle simultaneous inputs in CSFML.</para>
+</listitem><listitem><para>Provide solutions for managing multiple input sources.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+</sect1>
+<sect1 id="index_1autotoc_md37">
+<title>Troubleshooting and Debugging</title>
+<sect2 id="index_1autotoc_md38">
+<title>Common Issues:</title>
+<sect3 id="index_1autotoc_md39">
+<title>Addressing common problems users may encounter.</title>
+<para><itemizedlist>
+<listitem><para>Compile a list of common issues faced by CSFML developers.</para>
+</listitem><listitem><para>Offer solutions and workarounds for each identified problem.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md40">
+<title>Troubleshooting window, graphics, and event-related issues.</title>
+<para><itemizedlist>
+<listitem><para>Provide</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+</sect1>
+<sect1 id="index_1autotoc_md41">
+<title>What else now ?</title>
+<para>Now that you have gone through the QuickStart CSFML documentation, here are some additional resources and suggestions for further exploration:</para>
+<sect2 id="index_1autotoc_md42">
+<title>Additional Topics to Explore</title>
+<sect3 id="index_1autotoc_md43">
+<title>Advanced Features</title>
+<para><itemizedlist>
+<listitem><para>Dive deeper into advanced features and functionalities offered by CSFML.</para>
+</listitem><listitem><para>Check the official CSFML documentation for comprehensive details.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="index_1autotoc_md44">
+<title>Community Resources</title>
+<para><itemizedlist>
+<listitem><para>Join the CSFML community forums or mailing lists to connect with other users.</para>
+</listitem><listitem><para>Share your experiences, ask questions, and learn from the community.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+<sect2 id="index_1autotoc_md45">
+<title>Official CSFML Documentation</title>
+<para>For the most detailed and up-to-date information about CSFML, refer to the Official <ulink url="https://www.sfml-dev.org/documentation/2.5.1/index.php">Documentation</ulink>.</para>
+<para>Explore the official documentation to access in-depth guides, API reference, and more.</para>
+</sect2>
+<sect2 id="index_1autotoc_md46">
+<title>Contributing</title>
+<para>If you&apos;re interested in contributing to CSFML or reporting issues, visit the Official <ulink url="https://github.com/SFML/CSFML">GitHub Repository</ulink>. Feel free to submit bug reports, contribute code, or get involved in the development process.</para>
+</sect2>
+<sect2 id="index_1autotoc_md47">
+<title>My Links</title>
+<para><itemizedlist>
+<listitem><para><ulink url="https://github.com/Enichy">My Github</ulink></para>
+</listitem><listitem><para><ulink url="https://github.com/Enichy/QuikckStart_CSFML">QuickStart CSFML repository</ulink></para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="index_1autotoc_md48">
+<title>Usefull Links</title>
+<para><itemizedlist>
+<listitem><para><ulink url="https://www.sfml-dev.org/documentation/2.5.1/index.php">CSFML Official Documentation</ulink><itemizedlist>
+<listitem><para>Access comprehensive guides, tutorials, and API references directly from the official source.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><ulink url="https://github.com/SFML/CSFML">CSFML GitHub Repository</ulink><itemizedlist>
+<listitem><para>Contribute to CSFML, report issues, and stay updated with the latest development on GitHub.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><ulink url="https://en.sfml-dev.org/forums/index.php?board=8.0">CSFML Community Forums</ulink><itemizedlist>
+<listitem><para>Engage with the CSFML community, ask questions, and share your experiences on the official forums.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><ulink url="https://www.sfml-dev.org/">SFML Website</ulink><itemizedlist>
+<listitem><para>Explore the broader SFML library that CSFML is based on for additional functionalities.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><ulink url="https://github.com/SFML/SFML">SFML GitHub Repository</ulink><itemizedlist>
+<listitem><para>If you&apos;re interested in the underlying SFML library, visit the Official SFML GitHub Repository.</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para>Feel free to explore these links to enhance your CSFML learning experience and stay connected with the community!</para>
+<para><bold>Thank you for using QuickStart CSFML. Happy coding!</bold> </para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="/home/enichy/Documents/Doxygene/CSFML_DOC/index.md"/>
+  </compounddef>
+</doxygen>
