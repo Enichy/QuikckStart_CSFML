@@ -34,7 +34,7 @@ make
 sudo make install
 ```
 **Verify Installation:**
-  - To ensure that CSFML is installed correctly, create a simple C program that uses CSFML functions.
+  - To ensure that CSFML is installed correctly, create a [simple C program](https://enichy.github.io/QuikckStart_CSFML/first__window_8c.html) that uses CSFML functions.
   Compile and run the program. If there are no errors, CSFML is installed successfully.
 
 ### Updating CSFML:
