@@ -10,14 +10,14 @@ development environment.
 
 *Before you begin, understand this guide is made from Linux, specificially Ubuntu. Make sure you have the following prerequisites installed on your system:*
 
-- CMake (version 2.8.12 or higher)
-- A C compiler (GCC, Clang, etc.)
-- CSFML dependencies (like OpenGL, X11, etc.)
+- **CMake (version 2.8.12 or higher)**
+- **A C compiler (GCC, Clang, etc.)**
+- **CSFML dependencies (like OpenGL, X11, etc.)**
 
 ### Installation:
 
 **Download CSFML:**
-- Visit the official CSFML website or download the source code from the CSFML GitHub repository.
+- Visit the [Official CSFML website](https://www.sfml-dev.org/documentation/2.5.1/index.php) or download the source code from the [CSFML GitHub repository](https://github.com/SFML/CSFML).
 
 **Build CSFML:**
   - Extract the downloaded archive and navigate to the CSFML directory.
