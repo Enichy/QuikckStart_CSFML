@@ -27,7 +27,7 @@ sudo apt-get install libsfml-dev
 sudo apt-get install libcsfml-dev
 ```
 - **Step 3: Verify Installation**
-  - To verify that **CSFML** is installed correctly, let's create a simple C program that uses **CSFML**. Open your code editor and create a file named **__main.c__** with the following content:
+  - To verify that **CSFML** is installed correctly, let's create a simple C program that uses **CSFML**. Open your code editor and create a file named **main.c** with the following content:
 ```c
 #include <SFML/Graphics.h>
 #include <CSFML/Graphics.h>
@@ -64,7 +64,11 @@ Guidance on organizing your CSFML project.
 Explanation of the main components (source files, assets, etc.).
 
 ## Doxygen Documentation:
-All the documentation for the code is here, so go on the link : [QuickStart CSFML by Enichy](https://enichy.github.io/QuikckStart_CSFML/index.html)
+All the documentation for the code is available using Doxygen. You can access the documentation by following the link below:
+
+[**QuickStart CSFML by Enichy**](https://enichy.github.io/QuikckStart_CSFML/index.html)
+
+This comprehensive documentation includes details about a lot of things the CSFML offer to developers. Refer to it for a deep dive into the functionalities and inner workings of the CSFML project.
 
 ## Contributing Guidelines:
 ### Bug Reports and Feature Requests:
