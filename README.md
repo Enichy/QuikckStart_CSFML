@@ -1,4 +1,4 @@
-# QuickStart to CSFML, By Enichy
+# QuickStart to CSFML, by Enichy
 ## Getting Started:
 ### Overview:
 
@@ -52,27 +52,12 @@ sudo make install
 
 Now you are ready to start using CSFML for your multimedia development projects. Move on to the next sections for tutorials and examples on how to create applications using CSFML.
 
-TEMPLINK : [Site](https://enichy.github.io/QuikckStart_CSFML/index.html)
-
 ## Project Structure:
 Guidance on organizing your CSFML project.
 Explanation of the main components (source files, assets, etc.).
 
-## Examples:
-More detailed examples of CSFML usage, covering a variety of features.
-Include code snippets and explanations for each example.
-
-## Advanced Features:
-In-depth explanation of advanced CSFML features.
-Tutorials on more complex tasks like handling input, using shaders, etc.
-
-## Troubleshooting:
-Common issues and their solutions.
-FAQs to address common user queries.
-
-## Best Practices:
-Tips and tricks for efficient CSFML programming.
-Recommendations for writing clean and maintainable code.
+## Doxygen Documentation:
+All the documentation for the code is here, so go on the link : [QuickStart CSFML by Enichy](https://enichy.github.io/QuikckStart_CSFML/index.html)
 
 ## Reference Section:
 Detailed API reference for all CSFML functions and classes.
