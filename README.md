@@ -60,8 +60,32 @@ Explanation of the main components (source files, assets, etc.).
 All the documentation for the code is here, so go on the link : [QuickStart CSFML by Enichy](https://enichy.github.io/QuikckStart_CSFML/index.html)
 
 ## Contributing Guidelines:
-Information for those interested in contributing to the documentation.
-Guidelines for submitting bug reports or feature requests.
+### Bug Reports and Feature Requests:
+
+  - **Bug Reports:**
+      - If you encounter any issues, please create a new issue with detailed information about the problem, including steps to reproduce it. Your input helps us identify and resolve issues efficiently.
+
+  - **Feature Requests:**
+      - For feature requests, submit a new issue outlining the proposed feature, its use case, and any other relevant details. We appreciate your ideas and feedback for enhancing the project.
+
+### Documentation Contributions:
+
+  - **Documentation Improvements:**
+      - If you find areas in the documentation that can be improved or clarified, feel free to submit a documentation issue or directly propose changes.
+
+  - **Documentation Issues:**
+      - Report any documentation issues you come across, such as inaccuracies or missing information.
+
+### General Guidelines:
+
+  - **Communication:**
+      - Engage with the community on our forum or Discord channel. Your questions, suggestions, and discussions contribute to the growth of our community.
+
+  - **Feedback:**
+      - Share your thoughts and suggestions. We value feedback from users to enhance the overall project experience.
+
+  - **Spread the Word:**
+      - If you enjoy using the project, consider sharing it with others. Your support helps build a stronger user base.
 
 ## Support and Community:
 
