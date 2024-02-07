@@ -87,13 +87,6 @@ For real-time discussions and quick assistance, you can join our community chat:
 - [CSFML Discord Channel](https://discord.gg/ZpQtEeT)
   - Join the CSFML Discord channel to chat with other developers and get help in real-time. It's a friendly environment for discussions related to CSFML and game development.
 
-### Social Media:
-
-Stay updated and connect with the CSFML community on social media platforms:
-
-- [Twitter](https://twitter.com/csmlibrary)
-  - Follow us on Twitter for announcements, updates, and community highlights.
-
 Feel free to explore these channels and connect with the CSFML community.
 
 ## Versioning:
