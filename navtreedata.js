@@ -92,6 +92,10 @@ var NAVTREE =
       [ "My Links", "index.html#autotoc_md47", null ],
       [ "Usefull Links", "index.html#autotoc_md48", null ]
     ] ],
+    [ "Data Structures", "annotated.html", [
+      [ "Data Structures", "annotated.html", "annotated_dup" ],
+      [ "Data Structure Index", "classes.html", null ]
+    ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [
@@ -104,7 +108,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"dir_005c7b640101bdb33bd444b533a60fc0.html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
