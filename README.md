@@ -60,15 +60,56 @@ gcc example.c -o main -lcsfml-graphics -lcsfml-window -lcsfml-system
 You should see a window created by **CSFML**. If you see one, you've successfully installed **CSFML** on your Ubuntu system.
 
 ## Project Structure:
-Guidance on organizing your CSFML project.
-Explanation of the main components (source files, assets, etc.).
+
+When working on a **CSFML** project, it's essential to maintain a well-organized structure for **clarity** and **maintainability**. Here's a guide to help you structure your **CSFML** project effectively:
+
+### Main Components
+
+1. **Source Files:**
+   - Place your main source code files (`.c` or `.cpp`) in a dedicated directory, commonly named `src` or `source`.
+   - Organize your source files based on the functionalities they provide, such as having separate files for different game elements or features.
+
+2. **Headers:**
+   - Store header files (`.h` or `.hpp`) in a distinct directory, often named `include` or `headers`.
+   - Group related headers together to make it easier for developers to find the necessary files.
+
+3. **Assets:**
+   - Keep your graphical and audio assets (images, sounds, etc.) in an `assets` directory.
+   - Further categorize assets into subdirectories based on their type or purpose.
+
+4. **Build and Configuration:**
+   - Store build-related files, such as CMakeLists.txt or makefiles, in the project's root directory or a `build` directory.
+
+### Guidance
+
+1. **Consistent Naming:**
+   - Use a consistent naming convention for files, directories, and variables. This enhances readability and reduces confusion.
+
+2. **Modularity:**
+   - Break down your code into modular components to improve maintainability and reusability.
+   - Consider using separate directories for different modules or features.
+
+3. **Documentation:**
+   - Include a `docs` directory for project-specific documentation, README files, and any additional guides for contributors.
+
+4. **Testing:**
+   - If applicable, create a `tests` directory for unit tests to ensure the reliability of your code.
+
+5. **Version Control:**
+   - If using version control (e.g., Git), include a `.gitignore` file to specify files and directories that should be excluded from version control.
+
+6. **Dependencies:**
+   - Clearly specify external dependencies and provide instructions for obtaining or installing them.
+
+7. **Examples:**
+   - Consider including an `examples` directory with sample code showcasing the usage of your CSFML project.
 
 ## Doxygen Documentation:
-All the documentation for the code is available using Doxygen. You can access the documentation by following the link below:
+- All the documentation for the code is available using Doxygen. You can access the documentation by following the link below:
 
-[**QuickStart CSFML by Enichy**](https://enichy.github.io/QuikckStart_CSFML/index.html)
+  - [**QuickStart CSFML by Enichy**](https://enichy.github.io/QuikckStart_CSFML/index.html)
 
-This comprehensive documentation includes details about a lot of things the CSFML offer to developers. Refer to it for a deep dive into the functionalities and inner workings of the CSFML project.
+- This comprehensive documentation includes details about a lot of things the CSFML offer to developers. Refer to it for a deep dive into the functionalities and inner workings of the CSFML project.
 
 ## Contributing Guidelines:
 ### Bug Reports and Feature Requests:
