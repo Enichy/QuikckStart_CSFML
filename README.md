@@ -80,13 +80,6 @@ If you encounter any issues, have questions, or want to engage with the communit
 If you believe you have found a bug or have a feature request, please consider reporting it on our [GitHub Issue Tracker](https://github.com/SFML/CSFML/issues).
 Before reporting, make sure to check if a similar issue has already been raised. Provide detailed information about the problem, including steps to reproduce it.
 
-### Real-time Chat:
-
-For real-time discussions and quick assistance, you can join our community chat:
-
-- [CSFML Discord Channel](https://discord.gg/ZpQtEeT)
-  - Join the CSFML Discord channel to chat with other developers and get help in real-time. It's a friendly environment for discussions related to CSFML and game development.
-
 Feel free to explore these channels and connect with the CSFML community.
 
 ## Versioning:
