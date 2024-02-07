@@ -72,8 +72,42 @@ Links to CSFML community forums or discussion groups.
 Information on where to seek help if users encounter problems.
 
 ## Versioning:
-Clearly specify the version of CSFML your documentation is based on.
-If CSFML receives updates, mention how to adapt the documentation accordingly.
+### Version: 2.5-1.1
+
+This documentation is based on CSFML version 2.5-1.1. If you are using a different version, please refer to the official CSFML documentation for version-specific details.
+
+### Adapting Documentation for Future Updates
+
+If CSFML receives updates and you need to adapt this documentation for a different version, follow these steps:
+
+1. **Check for Updates:**
+   - Visit the [CSFML GitHub repository](https://github.com/SFML/CSFML) or the official CSFML website to check for the latest version.
+
+2. **Review Release Notes:**
+   - Read the release notes provided with the new CSFML version. Look for any changes, additions, or deprecations that might affect your code or documentation.
+
+3. **Update Code Examples:**
+   - If there are changes to CSFML APIs or functionalities, update code examples in this documentation accordingly.
+
+4. **Verify Configuration:**
+   - If there are changes in the configuration or build process, update any relevant sections in the documentation.
+
+5. **Update Dependencies:**
+   - If the new CSFML version requires updates to external dependencies, make the necessary adjustments in your documentation.
+
+6. **Version Tagging:**
+   - Consider using version tags in your repository to tag the documentation at specific CSFML versions. This helps users navigate the documentation for the version they are using.
+
+7. **Community Support:**
+   - If you encounter issues or have questions during the update process, check the CSFML community forums or GitHub discussions for assistance.
+
+### Additional Resources
+
+- [CSFML GitHub Repository](https://github.com/SFML/CSFML)
+- [CSFML Official Documentation](https://www.sfml-dev.org/download/csfml/)
+- [CSFML Community Forums](https://en.sfml-dev.org/forums/index.php)
+
+Feel free to customize this template based on your specific needs and preferences. The key is to provide clear version information and guidance on how users can adapt the documentation for different CSFML versions.
 
 ## License:
 ### QuickStart CSFML
