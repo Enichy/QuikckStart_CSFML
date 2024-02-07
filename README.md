@@ -69,11 +69,11 @@ If you encounter any issues, have questions, or want to engage with the communit
 
 ### Forums and Discussion Groups:
 
-- [CSFML Official Forum](https://en.sfml-dev.org/forums/index.php?board=16.0)
-  - Visit our official forum to connect with other CSFML users. You can ask questions, share your experiences, and learn from the community.
+- [CSFML Official Forum](https://fr.sfml-dev.org/forums/index.php?board=31.0)
+  - Visit the official forum to connect with other CSFML users. You can ask questions, share your experiences, and learn from the community.
 
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/csfml)
-  - Check out CSFML-related questions on Stack Overflow. This is a popular platform for programming Q&A, and you may find solutions or contribute to existing discussions.
+- [Enichy's Discord Server](https://discord.gg/rR3VkEamSx)
+  - Visit our discord server, to see where the documentation is going, to get help or just to talk.
 
 ### Reporting Issues:
 
