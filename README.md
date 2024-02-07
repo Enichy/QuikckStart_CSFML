@@ -59,10 +59,6 @@ Explanation of the main components (source files, assets, etc.).
 ## Doxygen Documentation:
 All the documentation for the code is here, so go on the link : [QuickStart CSFML by Enichy](https://enichy.github.io/QuikckStart_CSFML/index.html)
 
-## Reference Section:
-Detailed API reference for all CSFML functions and classes.
-Explanation of data structures used in CSFML.
-
 ## Contributing Guidelines:
 Information for those interested in contributing to the documentation.
 Guidelines for submitting bug reports or feature requests.
