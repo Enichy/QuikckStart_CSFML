@@ -10,7 +10,6 @@ development environment.
 
 *Before you begin, understand this guide is made from Linux, specificially Ubuntu. Make sure you have the following prerequisites installed on your system:*
 
-- **CMake (version 2.8.12 or higher)**
 - **A C compiler (GCC, Clang, etc.)**
 - **CSFML dependencies (like OpenGL, X11, etc.)**
 
