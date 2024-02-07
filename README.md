@@ -107,8 +107,6 @@ If CSFML receives updates and you need to adapt this documentation for a differe
 - [CSFML Official Documentation](https://www.sfml-dev.org/download/csfml/)
 - [CSFML Community Forums](https://en.sfml-dev.org/forums/index.php)
 
-Feel free to customize this template based on your specific needs and preferences. The key is to provide clear version information and guidance on how users can adapt the documentation for different CSFML versions.
-
 ## License:
 ### QuickStart CSFML
 
