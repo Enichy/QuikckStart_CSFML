@@ -77,7 +77,7 @@ If you encounter any issues, have questions, or want to engage with the communit
 
 ### Reporting Issues:
 
-If you believe you have found a bug or have a feature request, please consider reporting it on our [GitHub Issue Tracker](https://github.com/SFML/CSFML/issues).
+If you believe you have found a bug or have a feature request, please consider reporting it on the [GitHub Issue Tracker](https://github.com/SFML/CSFML/issues).
 Before reporting, make sure to check if a similar issue has already been raised. Provide detailed information about the problem, including steps to reproduce it.
 
 Feel free to explore these channels and connect with the CSFML community.
