@@ -15,42 +15,50 @@ development environment.
 - **CSFML dependencies (like OpenGL, X11, etc.)**
 
 ### Installation:
+- **Step 1: Install SFML**
+  - First, you need to install SFML, as CSFML is a binding to SFML. Open a terminal and run the following commands:
 
-**Download CSFML:**
-- Visit the [Official CSFML website](https://www.sfml-dev.org/documentation/2.5.1/index.php) or download the source code from the [CSFML GitHub repository](https://github.com/SFML/CSFML).
-
-**Build CSFML:**
-  - Extract the downloaded archive and navigate to the CSFML directory.
-  - Create a build directory (e.g., build/) within the CSFML directory.
-  - Open a terminal and navigate to the build directory.
-  - Run the following commands:
 ```
-cmake ..
-make
+sudo apt-get update
+sudo apt-get install libsfml-dev
 ```
-**Install CSFML:**
-  - After successful compilation, install CSFML using the following command:
+- **Step 2: Install CSFML**
+  - Now that SFML is installed, you can proceed to install CSFML. Run the following command:
 ```
-sudo make install
+sudo apt-get install libcsfml-dev
 ```
-**Verify Installation:**
-  - To ensure that CSFML is installed correctly, create a [simple C program](https://enichy.github.io/QuikckStart_CSFML/first__window_8c.html) that uses CSFML functions.
-  Compile and run the program. If there are no errors, CSFML is installed successfully.
+- **Step 3: Verify Installation**
+  - To verify that CSFML is installed correctly, let's create a simple C program that uses CSFML. Open your code editor and create a file named main.c with the following content:
+```c
+#include <SFML/Graphics.h>
+#include <CSFML/Graphics.h>
 
-### Updating CSFML:
+int main()
+{
+    sfRenderWindow* window = sfRenderWindow_create(sfVideoMode_getDesktopMode(), "CSFML Example", sfDefaultStyle, NULL);
 
-  If you have an older version of CSFML and want to update it, follow these steps:
-
-- **Update CSFML Source Code:**
-  - Download the latest CSFML source code from the official website or GitHub repository.
-
-- **Build and Install:**
-  - Repeat the steps mentioned in the "Build CSFML" and "Install CSFML" sections.
-
-- **Verify Update:**
-  - Check the CSFML version in your application to ensure that the update was successful.
-
-Now you are ready to start using CSFML for your multimedia development projects. Move on to the next sections for tutorials and examples on how to create applications using CSFML.
+    while (sfRenderWindow_isOpen(window)) {
+        sfEvent event;
+        while (sfRenderWindow_pollEvent(window, &event)) {
+            if (event.type == sfEvtClosed)
+                sfRenderWindow_close(window);
+        }
+        sfRenderWindow_clear(window, sfBlack);
+        sfRenderWindow_display(window);
+    }
+    sfRenderWindow_destroy(window);
+    return 0;
+}
+```
+  - Save the file and compile the program:
+```
+gcc example.c -o main -lcsfml-graphics -lcsfml-window -lcsfml-system
+```
+- If the compilation is successful, run the executable:
+```
+./main
+```
+You should see a window created by CSFML. If you see one, you've successfully installed CSFML on your Ubuntu system.
 
 ## Project Structure:
 Guidance on organizing your CSFML project.
