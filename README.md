@@ -15,19 +15,19 @@ development environment.
 
 ### Installation:
 - **Step 1: Install SFML**
-  - First, you need to install SFML, as CSFML is a binding to SFML. Open a terminal and run the following commands:
+  - First, you need to install **SFML**, as **CSFML** is a binding to **SFML**. Open a terminal and run the following commands:
 
 ```
 sudo apt-get update
 sudo apt-get install libsfml-dev
 ```
 - **Step 2: Install CSFML**
-  - Now that SFML is installed, you can proceed to install CSFML. Run the following command:
+  - Now that **SFML** is installed, you can proceed to install **CSFML**. Run the following command:
 ```
 sudo apt-get install libcsfml-dev
 ```
 - **Step 3: Verify Installation**
-  - To verify that CSFML is installed correctly, let's create a simple C program that uses CSFML. Open your code editor and create a file named main.c with the following content:
+  - To verify that **CSFML** is installed correctly, let's create a simple C program that uses **CSFML**. Open your code editor and create a file named **__main.c__** with the following content:
 ```c
 #include <SFML/Graphics.h>
 #include <CSFML/Graphics.h>
@@ -49,7 +49,7 @@ int main()
     return 0;
 }
 ```
-  - Save the file and compile the program:
+  - **Save** the file and **compile** the program:
 ```
 gcc example.c -o main -lcsfml-graphics -lcsfml-window -lcsfml-system
 ```
@@ -57,7 +57,7 @@ gcc example.c -o main -lcsfml-graphics -lcsfml-window -lcsfml-system
 ```
 ./main
 ```
-You should see a window created by CSFML. If you see one, you've successfully installed CSFML on your Ubuntu system.
+You should see a window created by **CSFML**. If you see one, you've successfully installed **CSFML** on your Ubuntu system.
 
 ## Project Structure:
 Guidance on organizing your CSFML project.
