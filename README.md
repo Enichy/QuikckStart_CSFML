@@ -63,9 +63,38 @@ All the documentation for the code is here, so go on the link : [QuickStart CSFM
 Information for those interested in contributing to the documentation.
 Guidelines for submitting bug reports or feature requests.
 
-## Community and Support:
-Links to CSFML community forums or discussion groups.
-Information on where to seek help if users encounter problems.
+## Support and Community:
+
+If you encounter any issues, have questions, or want to engage with the community, there are several resources available to you.
+
+### Forums and Discussion Groups:
+
+- [CSFML Official Forum](https://en.sfml-dev.org/forums/index.php?board=16.0)
+  - Visit our official forum to connect with other CSFML users. You can ask questions, share your experiences, and learn from the community.
+
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/csfml)
+  - Check out CSFML-related questions on Stack Overflow. This is a popular platform for programming Q&A, and you may find solutions or contribute to existing discussions.
+
+### Reporting Issues:
+
+If you believe you have found a bug or have a feature request, please consider reporting it on our [GitHub Issue Tracker](https://github.com/SFML/CSFML/issues).
+Before reporting, make sure to check if a similar issue has already been raised. Provide detailed information about the problem, including steps to reproduce it.
+
+### Real-time Chat:
+
+For real-time discussions and quick assistance, you can join our community chat:
+
+- [CSFML Discord Channel](https://discord.gg/ZpQtEeT)
+  - Join the CSFML Discord channel to chat with other developers and get help in real-time. It's a friendly environment for discussions related to CSFML and game development.
+
+### Social Media:
+
+Stay updated and connect with the CSFML community on social media platforms:
+
+- [Twitter](https://twitter.com/csmlibrary)
+  - Follow us on Twitter for announcements, updates, and community highlights.
+
+Feel free to explore these channels and connect with the CSFML community.
 
 ## Versioning:
 ### Version: 2.5-1.1
