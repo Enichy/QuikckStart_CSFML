@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quickstart_20csfml_20by_20enichy_12',['QuickStart CSFML by Enichy',['../index.html',1,'']]]
+  ['window_5fs_15',['window_s',['../structwindow__s.html',1,'']]]
 ];

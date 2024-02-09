@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['second_5fwindow_2ec_10',['second_window.c',['../second__window_8c.html',1,'']]]
+  ['resizable_5fwindow_2ec_19',['Resizable_window.c',['../_resizable__window_8c.html',1,'']]]
 ];
